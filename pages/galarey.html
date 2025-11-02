@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="min-h-screen bg-[linear-gradient(120deg,_#d94b4b,_#7ddad1)]">
+    <div id="loading" class="fixed inset-0 z-50 w-full h-full bg-[#fbf8ec] flex flex-col items-center justify-center space-y-6">
+        <img src="/assets/loading.svg" alt="loading" class="w-50 h-50 animate-spin" />
+
+        <h1 class="text-[#279b37] text-2xl font-bold animate-pulse">
+          Yuklanmoqda...
+        </h1>
+      </div>
+    <header>
+      <h1 class="text-white text-4xl font-bold text-center mt-[40px]">Gallery</h1>
+    </header>
+
+    <main class="mt-[30px]">
+      <div id="gallery-content" class="container mx-auto px-[10px] flex flex-col items-center gap-3 sm:grid grid-cols-2 gap-[20px]">
+        
+      </div>
+    </main>
+      <div class="mt-[100px]">
+        <div class="fixed z-12 bottom-0 backdrop-blur-lg bg-white/20 rounded-2xl w-full h-[80px] flex items-center justify-center">
+          <p class="text-black italic">All reserved by Diyorbek</p>
+        </div>   
+      </div> 
+    <script src="/js/data.js"></script>
+    <script src="/js/load.js"></script>
+    <script src="/js/galarey.js"></script>
+  </body>
+</html>
