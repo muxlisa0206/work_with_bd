@@ -13,7 +13,7 @@ getData("users", (users) => {
           <div class="flex flex-col gap-2">
             <h1>Email: <a href="#" class="underline text-[blue]">${user.email}</a></h1>
             <h2>Website: <a href="#" class="underline text-[blue]">${user.website}</a></h2>
-            <h4>Address: <a href="#" class="underline text-[blue]">${user.address}</a></h4>
+            <h4>Address: <a href="#" class="underline text-[blue]">${user.address.city}</a></h4>
             <h1 class="line-clamp-1">Phone: <a href="#" class="underline text-[blue]">${user.phone}</a></h1>
           </div>
           <div class="flex items-center justify-between mt-[10px]">
